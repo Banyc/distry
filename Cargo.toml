@@ -1,0 +1,12 @@
+[package]
+name = "distry"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bon = "3"
+primitive = { git = "https://github.com/Banyc/primitive.git", tag = "v0.0.53" }
+tokio = { version = "1", features = ["full"] }
+
+[dev-dependencies]
+tempfile = "3"
